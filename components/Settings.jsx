@@ -35,13 +35,35 @@ const Settings = ({ getSetting, updateSetting }) => {
         Playback Volume
       </SliderInput>
 
-      <SwitchItem
-        note="Should PRadio display a custom modal above your usermodal? THIS FEATURE IS COMING SOON"
-        value={getSetting("modal", false)}
-        onChange={() => updateSetting("modal", !getSetting("modal", false))}
+      <Category
+        name="Modal Settings"
+        description="This settings only apply ifyou are using the modal feature."
+        disabled={getSetting("modalSettings", false)}
+        opened={getSetting("modalSettings", false)}
+        onChange={() =>
+          updateSetting(
+            "modalSettings",
+            !getSetting("modalSettings", false)
+          )
+        }
       >
-        Display Modal
-      </SwitchItem>
+        <SwitchItem
+          note="Should PRadio display a custom modal above your usermodal?"
+          value={getSetting("modal", false)}
+          onChange={() => updateSetting("modal", !getSetting("modal", false))}
+        >
+          Display Modal
+        </SwitchItem>
+
+        <TextInput
+          note="I am currently working on a way to automaticall fetch the album cover. In the mean time, you can set an image url here to display whatever you want."
+          require={true}
+          defaultValue={getSetting("modal_image", "https://cdn.discordapp.com/avatars/861202961827758081/0515b91b544c7fd212e62199e459260e.png?size=1024")}
+          onChange={(value) => updateSetting("modal_image", value)}
+        >
+          Temporary: Custom Modal Image
+        </TextInput>
+      </Category>
     </div>
   );
 };
