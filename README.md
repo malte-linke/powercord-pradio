@@ -1,4 +1,4 @@
-# PRadio: Play radio in Discord
+# PRadio: Stream radio in Discord
 
 This plugin allows you to listen to your favorite radio stations while talking to your best friends. <br>
 You can specify your own radio stream in the settings.<br>
