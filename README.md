@@ -6,7 +6,7 @@ I will add a custom playing modal in the future and a option to automatically tu
 <br>
 <b>
   Important: The provided url MUST be a link to a DIRECT MEDIA STREAM. This means https://radioXYZ.fm is not a valid url!<br>
-  Stream url normaly look like https://play.radioXYZ.fm/source.mp3
+  Stream urls normaly look like https://play.radioXYZ.fm/source.mp3
 </b>
 
 ## Support
