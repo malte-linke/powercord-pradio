@@ -18,10 +18,10 @@ module.exports = class PRadio extends (Plugin) {
   }
 
   pluginWillUnload() {
-    // uninjects the plugin
-    uninject();
-
     // unregister settings tab
     powercord.api.settings.unregisterSettings('pradio');
+
+    // uninjects the plugin
+    uninject();
   }
 };
