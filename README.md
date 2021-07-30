@@ -2,7 +2,12 @@
 
 This plugin allows you to listen to your favorite radio stations while talking to your best friends. <br>
 You can specify your own radio stream in the settings.<br>
-I will add a custom playing modal in the future and a option to automatically turn the volume down once someone is talking.
+I will add a custom playing modal in the future and a option to automatically turn the volume down once someone is talking.<br>
+<br>
+<b>
+  Important: The provided url MUST be a link to a DIRECT MEDIA STREAM. This means https://radioXYZ.fm is not a valid url!<br>
+  Stream url normaly look like https://play.radioXYZ.fm/source.mp3
+</b>
 
 ## Support
 
