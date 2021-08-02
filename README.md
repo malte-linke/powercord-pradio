@@ -26,7 +26,7 @@ You can also create a new issue on GitHub. It normaly doesn't take long for me t
 We now have modal above your username! Its not the best...<br>
 Also, I am still looking for an easy way to retrieve the album covers automatically.<br>
 
-<img src=https://i.imgur.com/117tEfr.png>
+<img src=https://i.imgur.com/Np3nmyJ.png>
 
 ###### Audio visualizer: <a href="//github.com/malte-linke/powercord-pspectrum">malte-linke/powercord-pspectrum</a>
 
@@ -34,5 +34,5 @@ Also, I am still looking for an easy way to retrieve the album covers automatica
 
 I actually do not know what to show here, so here is the settings page:
 
-<img src="https://i.imgur.com/HkaOVg2.png">
+<img src="https://i.imgur.com/g5S1Zn6.png">
 
