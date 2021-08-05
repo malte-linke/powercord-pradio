@@ -19,7 +19,17 @@ You can also create a new issue on GitHub. It normaly doesn't take long for me t
 1. Go to your powercord plugins folder. Run ``git clone https://github.com/malte-linke/powercord-pradio.git``
 2. Restart discord to fetch missing plugins.
 
----
+## Stream Support & Shoutcast Metadata Protocol
+
+The plugin supports Shoutcast Metadata Protocol (ICY).</br>
+This basically means, if your radio stations sends the song title, my plugin will display you the currently playing song.
+
+### Supported Stream Types
+
+| Type           | Description              | Support |
+| -------------- | ------------------------ | :-----: |
+| .mp3, .ogg ... | Any direct media stream. | ✔️      |
+| .m3u / .m3u8   | Multimedia playlists.    | ❌      |
 
 ## Since 1.1.0
 
