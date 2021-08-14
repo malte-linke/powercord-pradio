@@ -33,7 +33,7 @@ This basically means, if your radio stations sends the song title, my plugin wil
 
 ## Since 1.1.0
 
-We now have modal above your username! Its not the best...<br>
+You now have a modal above your username! Its not the best...<br>
 Also, I am still looking for an easy way to retrieve the album covers automatically.<br>
 
 <img src=https://i.imgur.com/Np3nmyJ.png>
