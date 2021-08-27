@@ -1,6 +1,7 @@
 const { Plugin } = require("powercord/entities");
 const { inject, uninject } = require('./lib/Injector');
 const { name } = require("./manifest.json");
+const { waitFor } = require('powercord/util');
 
 module.exports = class PRadio extends (Plugin) {
 
@@ -12,9 +13,14 @@ module.exports = class PRadio extends (Plugin) {
       render: require("./components/Settings"),
     });
 
+    
+    // I think this will fix some things
+    waitFor(`section.panels-j1Uci_`).then(() => {
+      
+      // injects the plugin
+      inject(this);
 
-    // injects the plugin
-    inject(this);
+    });
   }
 
   pluginWillUnload() {
