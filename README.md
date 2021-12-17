@@ -11,7 +11,7 @@ I will add a custom playing modal in the future and a option to automatically tu
 
 ## Support
 
-If you need help, please feel free to contact me on Discord (Parzival#0002).<br>
+If you need help, please feel free to contact me on Discord (Parzival#9999).<br>
 You can also create a new issue on GitHub. It normaly doesn't take long for me to repsond.
 
 ## Installation
