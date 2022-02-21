@@ -15,7 +15,7 @@ module.exports = class PRadio extends (Plugin) {
 
     
     // I think this will fix some things
-    waitFor(`section.panels-j1Uci_`).then(() => {
+    waitFor(`section.panels-3wFtMD`).then(() => {
       
       // injects the plugin
       inject(this);
