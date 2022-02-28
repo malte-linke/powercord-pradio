@@ -17,7 +17,7 @@ You can specify your own radio stream in the settings.<br>
 
 ## Installation
 
-1. Open your powercord plugins directory and run `git clone https://github.com/malte-linke/powercord-pradio.git`.
+1. Open your powercord plugins directory and run `git clone https://github.com/parzival-space/powercord-pradio.git`.
 2. Restart discord to fetch missing plugins.
 
 ## Stream Support & Shoutcast Metadata Protocol
@@ -47,7 +47,7 @@ Malte Linke – [Parzival#9999](https://discord.com/users/249877580180750336)
 
 Distributed under the MIT license. See ``LICENSE`` for more information.
 
-[https://github.com/malte-linke](https://github.com/malte-linke)
+[https://github.com/parzival-space](https://github.com/parzival-space)
 
 ## Contributing
 
@@ -58,16 +58,16 @@ Distributed under the MIT license. See ``LICENSE`` for more information.
 5. Create a new Pull Request
 
 <!-- Markdown link & img dfn's -->
-[version-image]: https://img.shields.io/github/manifest-json/v/malte-linke/powercord-pradio?style=flat-square
-[license-image]: https://img.shields.io/github/license/malte-linke/powercord-pradio?style=flat-square
-[size-image]: https://img.shields.io/github/repo-size/malte-linke/powercord-pradio?label=size&style=flat-square
+[version-image]: https://img.shields.io/github/manifest-json/v/parzival-space/powercord-pradio?style=flat-square
+[license-image]: https://img.shields.io/github/license/parzival-space/powercord-pradio?style=flat-square
+[size-image]: https://img.shields.io/github/repo-size/parzival-space/powercord-pradio?label=size&style=flat-square
 [demo-image]: https://i.imgur.com/Np3nmyJ.png
 
 ## Other Plugins
 
 Check out my other plugins for [Powercord](https://powercord.dev/plugins/):
 
-  - [BeatRPC](https://github.com/malte-linke/powercord-beatrpc) - A more detailed Beat Saber RPC
-  - [PRadio](https://github.com/malte-linke/powercord-pradio) - Stream radio in Discord
-  - [PSpectrum](https://github.com/malte-linke/powercord-pspectrum) - Audio visualizer for Discord
-  - [VR Audio Switch](https://github.com/malte-linke/powercord-vraudioswitch) - Automatically switch Input and Output to VR
+  - [BeatRPC](https://github.com/parzival-space/powercord-beatrpc) - A more detailed Beat Saber RPC
+  - [PRadio](https://github.com/parzival-space/powercord-pradio) - Stream radio in Discord
+  - [PSpectrum](https://github.com/parzival-space/powercord-pspectrum) - Audio visualizer for Discord
+  - [VR Audio Switch](https://github.com/parzival-space/powercord-vraudioswitch) - Automatically switch Input and Output to VR
